@@ -9,16 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mantine/core": "^6.0.21",
+    "@mantine/dates": "^6.0.21",
+    "@mantine/form": "^6.0.21",
+    "@mantine/hooks": "^6.0.21",
+    "@mantine/modals": "^6.0.21",
+    "@mantine/next": "^6.0.21",
+    "@mantine/notifications": "^6.0.21",
+    "@mantine/nprogress": "^6.0.21",
+    "@mantine/prism": "^6.0.21",
+    "@mantine/tiptap": "^6.0.21",
+    "@tanstack/react-table": "^8.5.13",
+    "@tiptap/extension-link": "^2.1.13",
+    "@tiptap/pm": "^2.1.13",
+    "@tiptap/react": "^2.1.13",
+    "@tiptap/starter-kit": "^2.1.13",
+    "dayjs": "^1.11.10",
+    "iron-session": "6.3.1",
+    "lodash": "^4.17.21",
+    "mssql": "^10.0.1",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-virtual": "2.10.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tabler/icons-react": "^2.43.0",
+    "@types/lodash": "^4.14.202",
+    "@types/mssql": "^9.1.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
   }
 }
